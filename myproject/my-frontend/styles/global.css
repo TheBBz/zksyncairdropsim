@@ -1,0 +1,141 @@
+/* Reset some basic elements to avoid default styles interference */
+body, h1, h2, h3, h4, h5, ul, ol, li, figure, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+/* Control section */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    width: 40rem; /* Increase the width here */
+    margin-bottom: 1rem;
+}
+
+/* Window styles */
+.window {
+    width: 40rem; /* Increase the width here */
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.title {
+    margin: 0;
+}
+
+.separator {
+    height: 1px;
+    background-color: #ddd;
+}
+
+.window-pane {
+    padding: 1rem;
+}
+
+.field-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.field-row label {
+    margin-right: 0.5rem;
+    flex: 0 0 auto;
+}
+
+.field-row input {
+    flex: 1 1 auto;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.field-row button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #0070f3;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.field-row button:hover {
+    background-color: #005bb5;
+}
+
+.results-window {
+    display: none;
+    width: 40rem; /* Increase the width here */
+}
+
+.results-window .window-pane {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+/* Additional styles for how-it-works and donations sections */
+.how-it-works, .donations {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.how-it-works img {
+    max-width: 100%;
+    height: auto;
+}
+
+.how-it-works p, .donations p {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+.how-it-works ul {
+    padding-left: 1rem;
+}
+
+.title.es {
+    font-size: 1.2rem; /* Adjust font size for Spanish title */
+}
+
+.results-window .window-pane {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 0;
+}
